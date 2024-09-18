@@ -6,8 +6,7 @@ void main()
  clrscr();
  printf("enter the no:");
  scanf("%d",&n);
- for(i=n;i!=0
- ;i=i-1)
+ for(i=n;i!=0;i=i-1)
  {
    fact=fact*i;
  }

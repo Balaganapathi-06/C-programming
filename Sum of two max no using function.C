@@ -2,27 +2,26 @@
 #include <conio.h>
 int gresum(int n1,int n2,int n3)
 {
-  int sum;
   if(n1>n2)
   {
     if(n2>n3)
-    return sum=n1+n2;
+    return n1+n2;
     else
-    return sum=n1+n3;
+    return n1+n3;
   }
   else if(n2>n3)
   {
     if(n3>n1)
-    return sum=n2+n3;
+    return n2+n3;
     else
-    return sum=n2+n1;
+    return n2+n1;
   }
   else
   {
     if(n2>n1)
-    return sum=n3+n2;
+    return n3+n2;
     else
-    return sum=n3+n1;
+    return n3+n1;
   }
 }
 void main()
